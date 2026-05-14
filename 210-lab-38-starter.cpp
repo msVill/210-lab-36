@@ -30,6 +30,12 @@ int main() {
         cout << "Codes loaded";
     }
 
+    cout << "Current BST Records:\n";
+
+    tree.displayInOrder();
+
+    //do while loop with if-else ... could not get to. sorry. 
+
     return 0;
 }
 
