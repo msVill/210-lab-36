@@ -2,6 +2,9 @@
 #ifndef INTBINARYTREE_H
 #define INTBINARYTREE_H
 
+#include <string>
+#include <iostream>
+
 // The IntBinaryTree class manages a binary tree of integers.
 class IntBinaryTree {
 private:
@@ -187,3 +190,9 @@ void IntBinaryTree::displayPostOrder(TreeNode *nodePtr) const {
 }
 
 #endif // INTBINARYTREE_H
+
+// Goal 1: modify the class - variables and function etc to process strings instead
+// Goal 2: read codes from the .txt file
+// Goal 3: create the BST obj.
+// Goal 4: Add Menu:
+//     1. add; 2. delete; 3. search; 4. modify; 5. need to end selection process. Exit
