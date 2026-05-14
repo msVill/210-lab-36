@@ -20,6 +20,12 @@ int main() {
         cout << "Error: can't open file";
     } else {
         string code;
+        
+        while(getline(inputFile, code)) {
+            if(!code.empty()) {
+                tree.insertNode(code);
+            }
+        }
     }
 
     return 0;
