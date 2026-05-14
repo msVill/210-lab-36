@@ -24,8 +24,10 @@ int main() {
         while(getline(inputFile, code)) {
             if(!code.empty()) {
                 tree.insertNode(code);
-            }
+            } //actually, i didn't close it! forgot.
         }
+        inputFile.close();
+        cout << "Codes loaded";
     }
 
     return 0;
